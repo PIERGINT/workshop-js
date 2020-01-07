@@ -29,6 +29,10 @@ function afficherOperation(nomOperation, operation, nb1, nb2) {
 
 }
 afficherOperation('Somme', somme, 20, 40);
+afficherOperation('Multiplication', multiplication, 10, 20);
 afficherOperation('Multiplication', function (a,b){
     return a*b;
 },  10, 20);
+afficherOperation('Soustraction', function (a,b){
+    return a-b;
+},  15, 5);
